@@ -1,0 +1,15 @@
+*.class
+*.log
+.bsp
+.idea
+consumer/target/scala-2.13/classes
+consumer/target/scala-2.13/update
+consumer/target/scala-2.13/zinc
+consumer/target/streams
+producer/target/scala-2.13/classes
+producer/target/scala-2.13/update
+producer/target/scala-2.13/zinc
+producer/target/streams
+project/project
+project/target
+target
