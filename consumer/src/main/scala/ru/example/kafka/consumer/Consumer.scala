@@ -36,7 +36,7 @@ object Consumer {
       // Читаем и выводим последние 5 записей из каждой секции
       consumer
         .poll(Duration.ofSeconds(1))
-        .forEach { msg => println(s"partition${msg.partition} : ${msg.value}") }
+        .forEach { msg => println(s"${msg.partition}\t${msg.offset}\t${msg.key}\t${msg.value}") }
     } catch {
       case e: Exception =>
         println(e.getLocalizedMessage)
