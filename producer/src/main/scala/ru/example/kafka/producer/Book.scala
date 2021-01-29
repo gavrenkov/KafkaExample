@@ -1,4 +1,4 @@
-package ru.example.kafka.common
+package ru.example.kafka.producer
 
 case class Book(
     name: String,

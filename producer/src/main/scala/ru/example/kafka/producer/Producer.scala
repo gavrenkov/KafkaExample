@@ -7,7 +7,6 @@ import io.circe.syntax.EncoderOps
 import org.apache.commons.csv.CSVFormat
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import org.apache.kafka.common.serialization.StringSerializer
-import ru.example.kafka.common.Book
 import java.io.FileReader
 import java.util.Properties
 
